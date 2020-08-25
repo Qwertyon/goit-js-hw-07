@@ -1,0 +1,36 @@
+* {
+  list-style: none;
+}
+
+#gallery {
+  margin: 0px auto 0px auto;
+  display: flex;
+  max-width: 800px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  background-color: aqua;
+  align-content: center;
+}
+
+.gallery-item {
+  margin: 10px 40px 10px auto;
+}
+
+.image-item {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+/* 6 */
