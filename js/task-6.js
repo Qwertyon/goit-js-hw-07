@@ -6,6 +6,7 @@ inputRef.addEventListener("change", (event) => {
     inputRef.classList.remove("invalid");
     inputRef.classList.add("valid");
   } else {
+    inputRef.classList.remove("valid");
     inputRef.classList.add("invalid");
   }
 });
